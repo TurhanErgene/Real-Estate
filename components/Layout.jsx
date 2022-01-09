@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Box } from '@chakra-ui/react'
 
-export default function Layout ({childeren}) {
+export default function Layout ({children}) {
   return (
     <>
     <Head>
@@ -12,12 +12,12 @@ export default function Layout ({childeren}) {
         Navbar
       </header>
       <main>
-        {childeren}
+        {children}
       </main>
       <footer>
         footer
       </footer>
     </Box>
     </>
-  )
+  );
 }
