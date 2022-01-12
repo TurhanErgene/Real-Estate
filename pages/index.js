@@ -61,7 +61,7 @@ export default function Home({ propertiesForSale, propertiesForRent}) {
         title2="Dream Home"
         desc1="Explore Apartments, Villas, homes"
         desc2="and more"
-        buttonText="Exploring Renting"
+        buttonText="Exploring Buying"
         linkName="/search?purpose=for-rent"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
       />
